@@ -1,0 +1,118 @@
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  font-family: 'Roboto';
+}
+.main-heading {
+  font-size: 38px;
+}
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 80%;
+  height: 80vh;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  width: 50%;
+}
+.timer-sub-container {
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer {
+  color: #00d9f5;
+  font-size: 38px;
+  font-weight: bold;
+  margin: 0px;
+}
+.status {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.control-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.start-pause-reset-container {
+  display: flex;
+  flex-direction: column;
+}
+.start-pause-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+.reset-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 10px;
+}
+img {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+}
+.timer-setup-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.timer-setup {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #00d9f5;
+  padding: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  width: 70px;
+  height: 45px;
+  margin: 20px;
+}
+button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.time-limit-heading {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+}
